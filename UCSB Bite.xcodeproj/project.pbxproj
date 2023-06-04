@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A3519882A2D4D19003DE95A /* UCSB_BiteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3519872A2D4D19003DE95A /* UCSB_BiteApp.swift */; };
+		0A35198A2A2D4D19003DE95A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3519892A2D4D19003DE95A /* ContentView.swift */; };
+		0A35198C2A2D4D1A003DE95A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A35198B2A2D4D1A003DE95A /* Assets.xcassets */; };
+		0A35198F2A2D4D1A003DE95A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A35198E2A2D4D1A003DE95A /* Preview Assets.xcassets */; };
+		0A3519992A2D4D1A003DE95A /* UCSB_BiteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3519982A2D4D1A003DE95A /* UCSB_BiteTests.swift */; };
+		0A3519A32A2D4D1A003DE95A /* UCSB_BiteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3519A22A2D4D1A003DE95A /* UCSB_BiteUITests.swift */; };
+		0A3519A52A2D4D1A003DE95A /* UCSB_BiteUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3519A42A2D4D1A003DE95A /* UCSB_BiteUITestsLaunchTests.swift */; };
+		0A3519B32A2D4FE2003DE95A /* Erik in Frameworks */ = {isa = PBXBuildFile; productRef = 0A3519B22A2D4FE2003DE95A /* Erik */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A3519952A2D4D1A003DE95A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A35197C2A2D4D19003DE95A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A3519832A2D4D19003DE95A;
+			remoteInfo = "UCSB Bite";
+		};
+		0A35199F2A2D4D1A003DE95A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A35197C2A2D4D19003DE95A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A3519832A2D4D19003DE95A;
+			remoteInfo = "UCSB Bite";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A3519842A2D4D19003DE95A /* UCSB Bite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UCSB Bite.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A3519872A2D4D19003DE95A /* UCSB_BiteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UCSB_BiteApp.swift; sourceTree = "<group>"; };
+		0A3519892A2D4D19003DE95A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0A35198B2A2D4D1A003DE95A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A35198E2A2D4D1A003DE95A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0A3519942A2D4D1A003DE95A /* UCSB BiteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UCSB BiteTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A3519982A2D4D1A003DE95A /* UCSB_BiteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UCSB_BiteTests.swift; sourceTree = "<group>"; };
+		0A35199E2A2D4D1A003DE95A /* UCSB BiteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UCSB BiteUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A3519A22A2D4D1A003DE95A /* UCSB_BiteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UCSB_BiteUITests.swift; sourceTree = "<group>"; };
+		0A3519A42A2D4D1A003DE95A /* UCSB_BiteUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UCSB_BiteUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0A3519B42A2D5867003DE95A /* UCSB-Bite-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "UCSB-Bite-Info.plist"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A3519812A2D4D19003DE95A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A3519B32A2D4FE2003DE95A /* Erik in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A3519912A2D4D1A003DE95A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A35199B2A2D4D1A003DE95A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A35197B2A2D4D19003DE95A = {
+			isa = PBXGroup;
+			children = (
+				0A3519862A2D4D19003DE95A /* UCSB Bite */,
+				0A3519972A2D4D1A003DE95A /* UCSB BiteTests */,
+				0A3519A12A2D4D1A003DE95A /* UCSB BiteUITests */,
+				0A3519852A2D4D19003DE95A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A3519852A2D4D19003DE95A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A3519842A2D4D19003DE95A /* UCSB Bite.app */,
+				0A3519942A2D4D1A003DE95A /* UCSB BiteTests.xctest */,
+				0A35199E2A2D4D1A003DE95A /* UCSB BiteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A3519862A2D4D19003DE95A /* UCSB Bite */ = {
+			isa = PBXGroup;
+			children = (
+				0A3519B42A2D5867003DE95A /* UCSB-Bite-Info.plist */,
+				0A3519872A2D4D19003DE95A /* UCSB_BiteApp.swift */,
+				0A3519892A2D4D19003DE95A /* ContentView.swift */,
+				0A35198B2A2D4D1A003DE95A /* Assets.xcassets */,
+				0A35198D2A2D4D1A003DE95A /* Preview Content */,
+			);
+			path = "UCSB Bite";
+			sourceTree = "<group>";
+		};
+		0A35198D2A2D4D1A003DE95A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0A35198E2A2D4D1A003DE95A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0A3519972A2D4D1A003DE95A /* UCSB BiteTests */ = {
+			isa = PBXGroup;
+			children = (
+				0A3519982A2D4D1A003DE95A /* UCSB_BiteTests.swift */,
+			);
+			path = "UCSB BiteTests";
+			sourceTree = "<group>";
+		};
+		0A3519A12A2D4D1A003DE95A /* UCSB BiteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0A3519A22A2D4D1A003DE95A /* UCSB_BiteUITests.swift */,
+				0A3519A42A2D4D1A003DE95A /* UCSB_BiteUITestsLaunchTests.swift */,
+			);
+			path = "UCSB BiteUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A3519832A2D4D19003DE95A /* UCSB Bite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A3519A82A2D4D1A003DE95A /* Build configuration list for PBXNativeTarget "UCSB Bite" */;
+			buildPhases = (
+				0A3519802A2D4D19003DE95A /* Sources */,
+				0A3519812A2D4D19003DE95A /* Frameworks */,
+				0A3519822A2D4D19003DE95A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UCSB Bite";
+			packageProductDependencies = (
+				0A3519B22A2D4FE2003DE95A /* Erik */,
+			);
+			productName = "UCSB Bite";
+			productReference = 0A3519842A2D4D19003DE95A /* UCSB Bite.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0A3519932A2D4D1A003DE95A /* UCSB BiteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A3519AB2A2D4D1A003DE95A /* Build configuration list for PBXNativeTarget "UCSB BiteTests" */;
+			buildPhases = (
+				0A3519902A2D4D1A003DE95A /* Sources */,
+				0A3519912A2D4D1A003DE95A /* Frameworks */,
+				0A3519922A2D4D1A003DE95A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A3519962A2D4D1A003DE95A /* PBXTargetDependency */,
+			);
+			name = "UCSB BiteTests";
+			productName = "UCSB BiteTests";
+			productReference = 0A3519942A2D4D1A003DE95A /* UCSB BiteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0A35199D2A2D4D1A003DE95A /* UCSB BiteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A3519AE2A2D4D1A003DE95A /* Build configuration list for PBXNativeTarget "UCSB BiteUITests" */;
+			buildPhases = (
+				0A35199A2A2D4D1A003DE95A /* Sources */,
+				0A35199B2A2D4D1A003DE95A /* Frameworks */,
+				0A35199C2A2D4D1A003DE95A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A3519A02A2D4D1A003DE95A /* PBXTargetDependency */,
+			);
+			name = "UCSB BiteUITests";
+			productName = "UCSB BiteUITests";
+			productReference = 0A35199E2A2D4D1A003DE95A /* UCSB BiteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A35197C2A2D4D19003DE95A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					0A3519832A2D4D19003DE95A = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					0A3519932A2D4D1A003DE95A = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 0A3519832A2D4D19003DE95A;
+					};
+					0A35199D2A2D4D1A003DE95A = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 0A3519832A2D4D19003DE95A;
+					};
+				};
+			};
+			buildConfigurationList = 0A35197F2A2D4D19003DE95A /* Build configuration list for PBXProject "UCSB Bite" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A35197B2A2D4D19003DE95A;
+			packageReferences = (
+				0A3519B12A2D4FE2003DE95A /* XCRemoteSwiftPackageReference "Erik" */,
+			);
+			productRefGroup = 0A3519852A2D4D19003DE95A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A3519832A2D4D19003DE95A /* UCSB Bite */,
+				0A3519932A2D4D1A003DE95A /* UCSB BiteTests */,
+				0A35199D2A2D4D1A003DE95A /* UCSB BiteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A3519822A2D4D19003DE95A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A35198F2A2D4D1A003DE95A /* Preview Assets.xcassets in Resources */,
+				0A35198C2A2D4D1A003DE95A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A3519922A2D4D1A003DE95A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A35199C2A2D4D1A003DE95A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A3519802A2D4D19003DE95A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A35198A2A2D4D19003DE95A /* ContentView.swift in Sources */,
+				0A3519882A2D4D19003DE95A /* UCSB_BiteApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A3519902A2D4D1A003DE95A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A3519992A2D4D1A003DE95A /* UCSB_BiteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A35199A2A2D4D1A003DE95A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A3519A32A2D4D1A003DE95A /* UCSB_BiteUITests.swift in Sources */,
+				0A3519A52A2D4D1A003DE95A /* UCSB_BiteUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A3519962A2D4D1A003DE95A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A3519832A2D4D19003DE95A /* UCSB Bite */;
+			targetProxy = 0A3519952A2D4D1A003DE95A /* PBXContainerItemProxy */;
+		};
+		0A3519A02A2D4D1A003DE95A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A3519832A2D4D19003DE95A /* UCSB Bite */;
+			targetProxy = 0A35199F2A2D4D1A003DE95A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0A3519A62A2D4D1A003DE95A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0A3519A72A2D4D1A003DE95A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A3519A92A2D4D1A003DE95A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"UCSB Bite/Preview Content\"";
+				DEVELOPMENT_TEAM = RV78ENMXZ2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "UCSB-Bite-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Bite;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "luckdev.UCSB-Bite";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A3519AA2A2D4D1A003DE95A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"UCSB Bite/Preview Content\"";
+				DEVELOPMENT_TEAM = RV78ENMXZ2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "UCSB-Bite-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Bite;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "luckdev.UCSB-Bite";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0A3519AC2A2D4D1A003DE95A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RV78ENMXZ2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "luckdev.UCSB-BiteTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UCSB Bite.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UCSB Bite";
+			};
+			name = Debug;
+		};
+		0A3519AD2A2D4D1A003DE95A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RV78ENMXZ2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "luckdev.UCSB-BiteTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UCSB Bite.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UCSB Bite";
+			};
+			name = Release;
+		};
+		0A3519AF2A2D4D1A003DE95A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RV78ENMXZ2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "luckdev.UCSB-BiteUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "UCSB Bite";
+			};
+			name = Debug;
+		};
+		0A3519B02A2D4D1A003DE95A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RV78ENMXZ2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "luckdev.UCSB-BiteUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "UCSB Bite";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A35197F2A2D4D19003DE95A /* Build configuration list for PBXProject "UCSB Bite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A3519A62A2D4D1A003DE95A /* Debug */,
+				0A3519A72A2D4D1A003DE95A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A3519A82A2D4D1A003DE95A /* Build configuration list for PBXNativeTarget "UCSB Bite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A3519A92A2D4D1A003DE95A /* Debug */,
+				0A3519AA2A2D4D1A003DE95A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A3519AB2A2D4D1A003DE95A /* Build configuration list for PBXNativeTarget "UCSB BiteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A3519AC2A2D4D1A003DE95A /* Debug */,
+				0A3519AD2A2D4D1A003DE95A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A3519AE2A2D4D1A003DE95A /* Build configuration list for PBXNativeTarget "UCSB BiteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A3519AF2A2D4D1A003DE95A /* Debug */,
+				0A3519B02A2D4D1A003DE95A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0A3519B12A2D4FE2003DE95A /* XCRemoteSwiftPackageReference "Erik" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/phimage/Erik";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0A3519B22A2D4FE2003DE95A /* Erik */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0A3519B12A2D4FE2003DE95A /* XCRemoteSwiftPackageReference "Erik" */;
+			productName = Erik;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 0A35197C2A2D4D19003DE95A /* Project object */;
+}
