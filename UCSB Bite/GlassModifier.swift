@@ -54,7 +54,7 @@ struct GlassTestView: View {
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background {
-            Image("sandbg2")
+            Image(.sandbg)
                 .resizable()
                 .scaledToFill()
                 .ignoresSafeArea()

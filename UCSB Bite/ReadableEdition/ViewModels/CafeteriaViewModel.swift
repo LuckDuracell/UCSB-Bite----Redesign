@@ -42,15 +42,19 @@ class CafeteriaViewModel: ObservableObject {
         } else {
             self.currentMealTime = .dinner
         }
+        
+        checkCafeterias()
     }
     
     func restrictionsHighlighted(_ ing: String) -> NSAttributedString {
+        
+        let unselectedTerms = ["benzoate", "kosher salt"]
+        
         let attributedString = NSMutableAttributedString(string: ing)
      
         for rest in restVM.restrictions {
             let options: NSString.CompareOptions = [.caseInsensitive, .diacriticInsensitive]
             var searchRange = ing.startIndex..<ing.endIndex
-             
             while let range = ing.range(of: rest.name, options: options, range: searchRange) {
                 attributedString.addAttribute(.foregroundColor, value: UIColor.yellow, range: NSRange(range, in: ing))
                 searchRange = range.upperBound..<ing.endIndex
@@ -63,6 +67,15 @@ class CafeteriaViewModel: ObservableObject {
                     searchRange = range.upperBound..<ing.endIndex
                 }
             }
+            
+            for term in unselectedTerms {
+                searchRange = ing.startIndex..<ing.endIndex
+                while let range = ing.range(of: term, options: options, range: searchRange) {
+                    attributedString.addAttribute(.foregroundColor, value: UIColor.white, range: NSRange(range, in: ing))
+                    searchRange = range.upperBound..<ing.endIndex
+                }
+            }
+            
         }
      
         return attributedString
@@ -264,4 +277,46 @@ class CafeteriaViewModel: ObservableObject {
             }
         })
     }
+}
+
+enum CafeteriaStatus: String, Hashable {
+    case open = "Open"
+    case closed = "Closed"
+    case unavailable = "Empty"
+}
+
+enum MealTime: String, CaseIterable {
+    case breakfast = "Breakfast"
+    case brunch = "Brunch"
+    case lunch = "Lunch"
+    case dinner = "Dinner"
+    
+    case constant = "10:00AM to 7:00PM"
+}
+
+enum SelectedCafeteria: String, CaseIterable, Hashable {
+    case none = "None"
+    case dlg = "De La Guerra"
+    case carillo = "Carrillo"
+    case portola = "Portola"
+    case ortega = "Ortega"
+//    case rootburger = "Root Burger"
+//    case arbor = "The Arbor"
+}
+
+struct Cafeteria: Hashable {
+    let name: SelectedCafeteria
+    var status: CafeteriaStatus
+    var mealTimes: [MealTime]
+    var inner_cafs: [InnerCafeteria] = [
+        InnerCafeteria(name: "Loading...", menu: [])
+    ]
+}
+struct InnerCafeteria: Hashable {
+    var name: String
+    var menu: [FoodItem]
+}
+struct FoodItem: Hashable {
+    var name: String
+    var ingredients: String
 }

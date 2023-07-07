@@ -8,6 +8,11 @@
 import SwiftUI
 
 struct DietaryRestrictionsView: View {
+    
+    @ObservedObject var cafeVM: CafeteriaViewModel
+    @ObservedObject var restVM: RestrictionsViewModel
+    @Binding var showSettings: Bool
+    
     var body: some View {
         ZStack {
             Rectangle()
@@ -40,6 +45,9 @@ struct DietaryRestrictionsView: View {
                                             .font(.headline)
                                             .onChange(of: restVM.restrictions) { _, _ in
                                                 restVM.saveRestrictions()
+                                                withAnimation(.bouncy) {
+                                                    cafeVM.currentCafeteria.inner_cafs = [InnerCafeteria(name: "Loading...", menu: [])]
+                                                }
                                             }
                                             .tint(.yellow)
                                     }
@@ -62,5 +70,5 @@ struct DietaryRestrictionsView: View {
 }
 
 #Preview {
-    DietaryRestrictionsView()
+    DietaryRestrictionsView(cafeVM: CafeteriaViewModel(restVM: RestrictionsViewModel()), restVM: RestrictionsViewModel(), showSettings: .constant(true))
 }

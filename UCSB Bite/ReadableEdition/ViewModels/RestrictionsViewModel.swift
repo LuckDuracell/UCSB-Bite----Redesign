@@ -23,8 +23,9 @@ class RestrictionsViewModel: ObservableObject {
         Restriction(name: "Wheat", restrictionID: "allergy_-8", enabled: false, section: .grains, addedTerms: ["flour"]),
 
         Restriction(name: "Soy", restrictionID: "allergy_-7", enabled: false, section: .plants, addedTerms: ["soybean"]),
-        Restriction(name: "Peanut", restrictionID: "allergy_-1", enabled: false, section: .plants, addedTerms: ["lentil"]),
-        Restriction(name: "Tree Nut", restrictionID: "allergy_-2", enabled: false, section: .plants, addedTerms: ["almond", "brazil nut", "cashew", "hazelnut", "macadamia", "pecan", "pine nut", "pistachio", "walnut", "peanut"]),
+        Restriction(name: "Peanut", restrictionID: "allergy_-1", enabled: false, section: .plants, addedTerms: ["lentil", "peas", "bannana"]),
+        //just as peanuts are legumes, so are lentils and peas. oftentimes those with peanut allergies have mild allergies to all legumes. I used the term "peas" instead of the singular to avoid overlap issues with the word "peanut".
+        Restriction(name: "Tree Nut", restrictionID: "allergy_-2", enabled: false, section: .plants, addedTerms: ["almond", "brazil nut", "cashew", "hazelnut", "macadamia", "pecan", "pine nut", "pistachio", "walnut"]),
 
         Restriction(name: "Gaucho Bright Bite", restrictionID: "pref_50", enabled: false, section: .choices),
         Restriction(name: "Halal", restrictionID: "pref_105", enabled: false, section: .choices),
@@ -51,4 +52,21 @@ class RestrictionsViewModel: ObservableObject {
         }
     }
     
+}
+
+struct Restriction: Identifiable, Codable, Hashable {
+    var id = UUID()
+    let name: String
+    let restrictionID: String
+    var enabled: Bool
+    let section: RestrictionSection
+    var addedTerms: [String] = []
+}
+
+enum RestrictionSection: String, Codable, CaseIterable {
+    case plants = "Plants"
+    case protiens = "Protiens"
+    case grains = "Grains"
+    case oceanic = "Oceanic"
+    case choices = "Choices"
 }

@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct IngredientsView: View {
+    
+    @Binding var ingredientsOverlay: (name: String, text: NSAttributedString, show: Bool)
+    
     var body: some View {
         ZStack {
             Rectangle()
@@ -38,5 +41,5 @@ struct IngredientsView: View {
 }
 
 #Preview {
-    IngredientsView()
+    IngredientsView(ingredientsOverlay: .constant((name: "", text: NSAttributedString(string: ""), show: false)))
 }

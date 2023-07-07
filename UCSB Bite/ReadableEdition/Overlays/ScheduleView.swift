@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct ScheduleView: View {
+    
+    @Binding var showSchedule: Bool
+    
     var body: some View {
         ZStack {
             Rectangle()
@@ -88,5 +91,5 @@ struct ScheduleView: View {
 }
 
 #Preview {
-    ScheduleView()
+    ScheduleView(showSchedule: .constant(true))
 }

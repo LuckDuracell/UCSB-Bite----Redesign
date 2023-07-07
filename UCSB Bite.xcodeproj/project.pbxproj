@@ -8,13 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		0A3519882A2D4D19003DE95A /* UCSB_BiteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3519872A2D4D19003DE95A /* UCSB_BiteApp.swift */; };
-		0A35198A2A2D4D19003DE95A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3519892A2D4D19003DE95A /* ContentView.swift */; };
 		0A35198C2A2D4D1A003DE95A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A35198B2A2D4D1A003DE95A /* Assets.xcassets */; };
 		0A35198F2A2D4D1A003DE95A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A35198E2A2D4D1A003DE95A /* Preview Assets.xcassets */; };
 		0A3519992A2D4D1A003DE95A /* UCSB_BiteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3519982A2D4D1A003DE95A /* UCSB_BiteTests.swift */; };
 		0A3519A32A2D4D1A003DE95A /* UCSB_BiteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3519A22A2D4D1A003DE95A /* UCSB_BiteUITests.swift */; };
 		0A3519A52A2D4D1A003DE95A /* UCSB_BiteUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3519A42A2D4D1A003DE95A /* UCSB_BiteUITestsLaunchTests.swift */; };
 		0A3519B32A2D4FE2003DE95A /* Erik in Frameworks */ = {isa = PBXBuildFile; productRef = 0A3519B22A2D4FE2003DE95A /* Erik */; };
+		0AF8C23A2A4E338B00538F18 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF8C2392A4E338B00538F18 /* ContentView.swift */; };
+		0AF8C23C2A4E33FD00538F18 /* RestrictionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF8C23B2A4E33FD00538F18 /* RestrictionsViewModel.swift */; };
+		0AF8C23E2A4E35E500538F18 /* CafeteriaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF8C23D2A4E35E500538F18 /* CafeteriaViewModel.swift */; };
+		0AF8C2402A4E3CCE00538F18 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF8C23F2A4E3CCE00538F18 /* HeaderView.swift */; };
+		0AF8C2422A4E3D8C00538F18 /* IngredientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF8C2412A4E3D8C00538F18 /* IngredientsView.swift */; };
+		0AF8C2442A4E3DA700538F18 /* DietaryRestrictionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF8C2432A4E3DA700538F18 /* DietaryRestrictionsView.swift */; };
+		0AF8C2462A4E3DB400538F18 /* ScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF8C2452A4E3DB400538F18 /* ScheduleView.swift */; };
+		0AF8C24C2A4E406700538F18 /* CafeteriaSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF8C24B2A4E406700538F18 /* CafeteriaSelectorView.swift */; };
+		0AF8C24E2A4E418F00538F18 /* CafeteriaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF8C24D2A4E418F00538F18 /* CafeteriaView.swift */; };
+		0AF8C2502A4E428C00538F18 /* GlassModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF8C24F2A4E428C00538F18 /* GlassModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +46,6 @@
 /* Begin PBXFileReference section */
 		0A3519842A2D4D19003DE95A /* UCSB Bite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UCSB Bite.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A3519872A2D4D19003DE95A /* UCSB_BiteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UCSB_BiteApp.swift; sourceTree = "<group>"; };
-		0A3519892A2D4D19003DE95A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0A35198B2A2D4D1A003DE95A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A35198E2A2D4D1A003DE95A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0A3519942A2D4D1A003DE95A /* UCSB BiteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UCSB BiteTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,6 +54,16 @@
 		0A3519A22A2D4D1A003DE95A /* UCSB_BiteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UCSB_BiteUITests.swift; sourceTree = "<group>"; };
 		0A3519A42A2D4D1A003DE95A /* UCSB_BiteUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UCSB_BiteUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		0A3519B42A2D5867003DE95A /* UCSB-Bite-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "UCSB-Bite-Info.plist"; sourceTree = SOURCE_ROOT; };
+		0AF8C2392A4E338B00538F18 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0AF8C23B2A4E33FD00538F18 /* RestrictionsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestrictionsViewModel.swift; sourceTree = "<group>"; };
+		0AF8C23D2A4E35E500538F18 /* CafeteriaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeteriaViewModel.swift; sourceTree = "<group>"; };
+		0AF8C23F2A4E3CCE00538F18 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		0AF8C2412A4E3D8C00538F18 /* IngredientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientsView.swift; sourceTree = "<group>"; };
+		0AF8C2432A4E3DA700538F18 /* DietaryRestrictionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietaryRestrictionsView.swift; sourceTree = "<group>"; };
+		0AF8C2452A4E3DB400538F18 /* ScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleView.swift; sourceTree = "<group>"; };
+		0AF8C24B2A4E406700538F18 /* CafeteriaSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeteriaSelectorView.swift; sourceTree = "<group>"; };
+		0AF8C24D2A4E418F00538F18 /* CafeteriaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeteriaView.swift; sourceTree = "<group>"; };
+		0AF8C24F2A4E428C00538F18 /* GlassModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +117,8 @@
 			children = (
 				0A3519B42A2D5867003DE95A /* UCSB-Bite-Info.plist */,
 				0A3519872A2D4D19003DE95A /* UCSB_BiteApp.swift */,
-				0A3519892A2D4D19003DE95A /* ContentView.swift */,
+				0AF8C24F2A4E428C00538F18 /* GlassModifier.swift */,
+				0AF8C2382A4E337B00538F18 /* ReadableEdition */,
 				0A35198B2A2D4D1A003DE95A /* Assets.xcassets */,
 				0A35198D2A2D4D1A003DE95A /* Preview Content */,
 			);
@@ -129,6 +148,38 @@
 				0A3519A42A2D4D1A003DE95A /* UCSB_BiteUITestsLaunchTests.swift */,
 			);
 			path = "UCSB BiteUITests";
+			sourceTree = "<group>";
+		};
+		0AF8C2382A4E337B00538F18 /* ReadableEdition */ = {
+			isa = PBXGroup;
+			children = (
+				0AF8C2392A4E338B00538F18 /* ContentView.swift */,
+				0AF8C24B2A4E406700538F18 /* CafeteriaSelectorView.swift */,
+				0AF8C24D2A4E418F00538F18 /* CafeteriaView.swift */,
+				0AF8C23F2A4E3CCE00538F18 /* HeaderView.swift */,
+				0AF8C2472A4E3DBF00538F18 /* Overlays */,
+				0AF8C2482A4E3F3400538F18 /* ViewModels */,
+			);
+			path = ReadableEdition;
+			sourceTree = "<group>";
+		};
+		0AF8C2472A4E3DBF00538F18 /* Overlays */ = {
+			isa = PBXGroup;
+			children = (
+				0AF8C2412A4E3D8C00538F18 /* IngredientsView.swift */,
+				0AF8C2452A4E3DB400538F18 /* ScheduleView.swift */,
+				0AF8C2432A4E3DA700538F18 /* DietaryRestrictionsView.swift */,
+			);
+			path = Overlays;
+			sourceTree = "<group>";
+		};
+		0AF8C2482A4E3F3400538F18 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				0AF8C23D2A4E35E500538F18 /* CafeteriaViewModel.swift */,
+				0AF8C23B2A4E33FD00538F18 /* RestrictionsViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,7 +249,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					0A3519832A2D4D19003DE95A = {
 						CreatedOnToolsVersion = 14.3;
@@ -267,8 +318,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A35198A2A2D4D19003DE95A /* ContentView.swift in Sources */,
 				0A3519882A2D4D19003DE95A /* UCSB_BiteApp.swift in Sources */,
+				0AF8C2402A4E3CCE00538F18 /* HeaderView.swift in Sources */,
+				0AF8C2502A4E428C00538F18 /* GlassModifier.swift in Sources */,
+				0AF8C2422A4E3D8C00538F18 /* IngredientsView.swift in Sources */,
+				0AF8C23A2A4E338B00538F18 /* ContentView.swift in Sources */,
+				0AF8C2462A4E3DB400538F18 /* ScheduleView.swift in Sources */,
+				0AF8C23C2A4E33FD00538F18 /* RestrictionsViewModel.swift in Sources */,
+				0AF8C2442A4E3DA700538F18 /* DietaryRestrictionsView.swift in Sources */,
+				0AF8C24C2A4E406700538F18 /* CafeteriaSelectorView.swift in Sources */,
+				0AF8C24E2A4E418F00538F18 /* CafeteriaView.swift in Sources */,
+				0AF8C23E2A4E35E500538F18 /* CafeteriaViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +369,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -341,6 +402,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -369,6 +431,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -401,6 +464,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -435,9 +499,10 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -467,9 +532,10 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
